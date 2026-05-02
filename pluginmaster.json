@@ -7,11 +7,15 @@
     "Description": "Customizable target lines",
     "Punchline": "Customizable target lines",
     "RepoUrl": "https://github.com/PandaCakes12321/Targetlines",
-    "Tags": ["combat", "ui"],
-    "DalamudApiLevel": 15,
     "ApplicableVersion": "any",
-    "DownloadLinkInstall": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/latest.zip",
-    "DownloadLinkTesting": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/latest.zip"
+    "CategoryTags": ["combat", "utility"],
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/PandaCakes12321/Targetlines/releases/download/v2.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/Targetlines/releases/download/v2.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/PandaCakes12321/Targetlines/releases/download/v2.0.0/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1746143481"
   }
 ]
