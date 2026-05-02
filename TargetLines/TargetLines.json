@@ -1,10 +1,9 @@
-﻿{
-    "Author": "Drahsid",
+{
+    "Author": "Drahsid, Updated by Teffers",
     "Name": "Target Lines",
     "InternalName": "TargetLines",
     "Description": "Customizable target lines",
     "Punchline": "Customizable target lines",
-    "RepoUrl": "https://github.com/Drahsid/TargetLines"
+    "RepoUrl": "https://github.com/PandaCakes12321/Targetlines",
+    "AssemblyVersion": "2.0.0.0"
 }
-
-
