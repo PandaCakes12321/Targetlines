@@ -8,6 +8,8 @@
     "Punchline": "Customizable target lines",
     "RepoUrl": "https://github.com/PandaCakes12321/Targetlines",
     "Tags": ["combat", "ui"],
+    "DalamudApiLevel": 15,
+    "ApplicableVersion": "any",
     "DownloadLinkInstall": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/latest.zip"
