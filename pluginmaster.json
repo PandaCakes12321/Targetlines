@@ -1,0 +1,15 @@
+[
+  {
+    "Author": "Drahsid, Updated by Teffers",
+    "Name": "Target Lines",
+    "InternalName": "TargetLines",
+    "AssemblyVersion": "2.0.0.0",
+    "Description": "Customizable target lines",
+    "Punchline": "Customizable target lines",
+    "RepoUrl": "https://github.com/PandaCakes12321/Targetlines",
+    "Tags": ["combat", "ui"],
+    "DownloadLinkInstall": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/TargetLines.zip",
+    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/TargetLines.zip",
+    "DownloadLinkTesting": "https://github.com/PandaCakes12321/Targetlines/releases/latest/download/TargetLines.zip"
+  }
+]
