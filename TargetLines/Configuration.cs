@@ -276,7 +276,7 @@ public class Configuration : IPluginConfiguration {
             saved = new SavedConfig();
         }
 
-        if (LineColors == null) {
+        if (LineColors == null || LineColors.Count == 0) {
             LineColors = new List<TargetSettingsPair>();
             LineColorsWasNull = 1;
         }
