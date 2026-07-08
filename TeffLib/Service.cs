@@ -3,7 +3,7 @@ using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 public class Service {
     [PluginService] public static IDalamudPluginInterface Interface { get; private set; } = null!;

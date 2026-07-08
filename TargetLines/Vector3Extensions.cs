@@ -1,6 +1,6 @@
 ﻿namespace TargetLines;
 
-using DrahsidLib;
+using TeffLib;
 using System.Numerics;
 
 public static class Vector3Extensions

@@ -1,5 +1,5 @@
 ﻿using Dalamud.Configuration;
-using DrahsidLib;
+using TeffLib;
 using FFXIVClientStructs.FFXIV.Common.Math;
 using Newtonsoft.Json;
 using System;

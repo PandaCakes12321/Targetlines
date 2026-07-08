@@ -3,7 +3,7 @@ using Dalamud.Bindings.ImGui;
 using Dalamud.Game.ClientState.Conditions;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
-using DrahsidLib;
+using TeffLib;
 using System.IO;
 
 namespace TargetLines;
@@ -37,7 +37,7 @@ public class Plugin : IDalamudPlugin {
         ClientState = clientState;
         CommandManager = commandManager;
 
-        DrahsidLib.DrahsidLib.Initialize(pluginInterface, DrawTooltip);
+        TeffLib.TeffLib.Initialize(pluginInterface, DrawTooltip);
 
         InitializeCommands();
         InitializeConfig();

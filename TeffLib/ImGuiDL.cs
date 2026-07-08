@@ -3,7 +3,7 @@ using System;
 using System.Text;
 using Dalamud.Bindings.ImGui;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 public static class ImGuiDL
 {

@@ -4,7 +4,7 @@ using FFXIVClientStructs.FFXIV.Component.GUI;
 using Dalamud.Bindings.ImGui;
 using System;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 public enum NodePositionAnchor {
     TOP_LEFT, TOP_CENTER, TOP_RIGHT,

@@ -1,8 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: System.Reflection.AssemblyCompany("DrahsidLib")]
-[assembly: System.Reflection.AssemblyProduct("DrahsidLib")]
-[assembly: System.Reflection.AssemblyTitle("DrahsidLib")]
+[assembly: System.Reflection.AssemblyCompany("TeffLib")]
+[assembly: System.Reflection.AssemblyProduct("TeffLib")]
+[assembly: System.Reflection.AssemblyTitle("TeffLib")]
 
 [assembly: System.Reflection.AssemblyVersion("1.2.0")]
 

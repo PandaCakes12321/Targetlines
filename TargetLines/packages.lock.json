@@ -77,7 +77,7 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "drahsidlib": {
+      "tefflib": {
         "type": "Project",
         "dependencies": {
           "DalamudPackager": "[15.0.0, )"

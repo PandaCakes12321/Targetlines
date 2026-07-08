@@ -1,6 +1,6 @@
 ﻿using FFXIVClientStructs.FFXIV.Client.Graphics.Scene;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 public static unsafe class SceneCameraManagerExtensions
 {

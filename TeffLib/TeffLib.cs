@@ -1,8 +1,8 @@
 ﻿using Dalamud.Plugin;
 
-namespace DrahsidLib; 
+namespace TeffLib; 
 
-public static class DrahsidLib {
+public static class TeffLib {
     public static void Initialize(IDalamudPluginInterface pluginInterface, DrawToolTipDelegate? DrawToolTipFn = null) {
         Service.Initialize(pluginInterface);
         if (DrawToolTipFn != null) {

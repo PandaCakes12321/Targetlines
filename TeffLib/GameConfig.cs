@@ -4,7 +4,7 @@ using FFXIVClientStructs.FFXIV.Common.Configuration;
 using System;
 using System.Collections.Generic;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 // Jacked from SimpleTweaks
 

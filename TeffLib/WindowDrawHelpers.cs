@@ -2,7 +2,7 @@
 using FFXIVClientStructs.FFXIV.Common.Math;
 using Dalamud.Bindings.ImGui;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 public delegate void DrawToolTipDelegate(string label);
 

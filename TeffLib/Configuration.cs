@@ -1,6 +1,6 @@
 ﻿using Dalamud.Configuration;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 public class ConfigurationBase : IPluginConfiguration {
     int IPluginConfiguration.Version { get; set; }

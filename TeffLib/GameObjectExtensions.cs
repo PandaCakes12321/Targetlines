@@ -2,7 +2,7 @@
 using FFXIVClientStructs.FFXIV.Common.Math;
 using System;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 public unsafe static class GameObjectExtensions {
     const int CursorHeightOffset = 0x124;

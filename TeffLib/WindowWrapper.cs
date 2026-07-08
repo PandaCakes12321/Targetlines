@@ -4,7 +4,7 @@ using Dalamud.Bindings.ImGui;
 using System;
 using System.Numerics;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 /// <summary>
 /// A Simple disposable wrapper class for Window which allows me to set a minimum size and scale it correctly to the GlobalScale

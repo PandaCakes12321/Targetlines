@@ -1,7 +1,7 @@
 ﻿using FFXIVClientStructs.FFXIV.Client.Game;
 using FFXIVClientStructs.FFXIV.Client.Game.Control;
 
-namespace DrahsidLib;
+namespace TeffLib;
 
 /// <summary>
 /// Enumeration representing the value which dictates the mode the camera is in.

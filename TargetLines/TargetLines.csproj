@@ -55,7 +55,7 @@
 	</PropertyGroup>
 	
 	<ItemGroup>
-        <ProjectReference Include="..\DrahsidLib\DrahsidLib.csproj" />
+        <ProjectReference Include="..\TeffLib\TeffLib.csproj" />
     </ItemGroup>
 
 	<ItemGroup>
