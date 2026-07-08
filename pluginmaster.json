@@ -1,15 +1,17 @@
 [
   {
     "Author": "Teffers",
-    "Name": "Target Lines",
-    "InternalName": "TargetLines",
-    "AssemblyVersion": "2.0.0.0",
+    "Name": "Teffer Lines",
+    "InternalName": "TefferLines",
+    "AssemblyVersion": "2.0.1.0",
     "Description": "Customizable target lines",
     "Punchline": "Customizable target lines",
     "RepoUrl": "https://github.com/PandaCakes12321/Targetlines",
-    "Tags": ["combat", "ui"],
+    "CategoryTags": ["combat", "utility"],
     "DalamudApiLevel": 15,
     "ApplicableVersion": "any",
+    "IsHide": false,
+    "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/PandaCakes12321/Targetlines/releases/download/v2.0.1-test/latest.zip",
     "DownloadLinkUpdate": "https://github.com/PandaCakes12321/Targetlines/releases/download/v2.0.1-test/latest.zip",
     "DownloadLinkTesting": "https://github.com/PandaCakes12321/Targetlines/releases/download/v2.0.1-test/latest.zip"
