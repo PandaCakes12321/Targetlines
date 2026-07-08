@@ -106,6 +106,8 @@ internal static class ShaderSingleton {
             VertexByteCode[index]?.Dispose();
             PixelShaders[index]?.Dispose();
             PixelByteCode[index]?.Dispose();
+            GeometryShaders[index]?.Dispose();
+            GeometryByteCode[index]?.Dispose();
         }
     }
 

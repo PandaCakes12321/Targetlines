@@ -256,6 +256,11 @@ public unsafe class TargetLine {
     public unsafe Vector3 GetTargetPosition(out bool fpp)
     {
         var target = GetTargetObject();
+        if (target == null)
+        {
+            fpp = false;
+            return LastTargetPosition;
+        }
         return CalculatePosition(target.Position, target.GetHeadHeight(), target.EntityId == Service.ObjectTable.LocalPlayer.EntityId, out fpp);
     }
 
@@ -544,7 +549,7 @@ public unsafe class TargetLine {
         var target = GetTargetObject();
 
         float start_height = Self.GetCursorHeight();
-        float end_height = target.GetCursorHeight();
+        float end_height = target != null ? target.GetCursorHeight() : LastTargetHeight;
         float mid_height = (start_height + end_height) * 0.5f;
 
         float start_height_scaled = (fpp0 ? 0 : start_height) * Globals.Config.saved.HeightScale;
@@ -631,7 +636,7 @@ public unsafe class TargetLine {
         var target = GetTargetObject();
 
         float start_height = Self.GetCursorHeight();
-        float end_height = target.GetCursorHeight();
+        float end_height = target != null ? target.GetCursorHeight() : LastTargetHeight;
         float mid_height = (start_height + end_height) * 0.5f;
 
         float start_height_scaled = (fpp0 ? 0 : start_height) * Globals.Config.saved.HeightScale;
@@ -640,7 +645,7 @@ public unsafe class TargetLine {
         float alpha = Math.Max(0, Math.Min(1, StateTime / Globals.Config.saved.NewTargetEaseTime));
 
         start.Y += LastTargetHeight * Globals.Config.saved.HeightScale;
-        end.Y += end_height_scaled * Globals.Config.saved.HeightScale;
+        end.Y += end_height_scaled;
 
         if (alpha >= 1)
         {
@@ -649,7 +654,7 @@ public unsafe class TargetLine {
         }
 
         Position = _source;
-        Position.Y += start_height_scaled * Globals.Config.saved.HeightScale;
+        Position.Y += start_height_scaled;
 
         TargetPosition = Vector3.Lerp(start, end, alpha);
         LastTargetPosition2 = Vector3.Lerp(LastTargetPosition, _target, alpha);
@@ -665,7 +670,7 @@ public unsafe class TargetLine {
         var target = GetTargetObject();
 
         float start_height = Self.GetCursorHeight();
-        float end_height = target.GetCursorHeight();
+        float end_height = target != null ? target.GetCursorHeight() : LastTargetHeight;
         float mid_height = (start_height + end_height) * 0.5f;
 
         float start_height_scaled = (fpp0 ? 0 : start_height) * Globals.Config.saved.HeightScale;

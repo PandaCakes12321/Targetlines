@@ -94,8 +94,10 @@ public class RawDX11Scene {
         blendStateDescription.RenderTarget[0].AlphaBlendOperation = BlendOperation.Add;
         blendStateDescription.RenderTarget[0].RenderTargetWriteMask = ColorWriteMaskFlags.All;
 
-        var blendState = new BlendState(Device, blendStateDescription);
-        deviceContext.OutputMerger.SetBlendState(blendState);
+        using (var blendState = new BlendState(Device, blendStateDescription))
+        {
+            deviceContext.OutputMerger.SetBlendState(blendState);
+        }
 
         unsafe
         {

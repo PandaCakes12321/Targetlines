@@ -30,6 +30,8 @@ public static class SwapChainHook {
         PresentHook?.Dispose();
         ResizeBuffersHook?.Dispose();
         Renderer?.Dispose();
+        Scene?.Dispose();
+        Scene = null;
     }
 
     private static IntPtr PresentDetour(IntPtr swapChain, uint syncInterval, uint presentFlags) {
@@ -46,6 +48,10 @@ public static class SwapChainHook {
     }
 
     private static IntPtr ResizeDetour(IntPtr swapChain, uint bufferCount, uint width, uint height, uint newFormat, uint swapChainFlags) {
+        if (Scene == null) {
+            return ResizeBuffersHook.Original(swapChain, bufferCount, width, height, newFormat, swapChainFlags);
+        }
+
         Scene.OnPreResize();
         var ret = ResizeBuffersHook.Original(swapChain, bufferCount, width, height, newFormat, swapChainFlags);
         Scene.OnPostResize((int)width, (int)height);

@@ -146,6 +146,8 @@ public class Plugin : IDalamudPlugin {
         PluginInterface.UiBuilder.OpenMainUi -= Commands.ToggleConfig;
 
         Commands.Dispose();
+        TargetLineManager.Dispose();
+        ShaderSingleton.Dispose();
         SwapChainHook.Dispose();
     }
 

@@ -336,7 +336,16 @@ internal class ConfigWindow : WindowWrapper {
 
         ImGui.SameLine();
         if (ImGui.Button("Paste Preset")) {
-            Globals.Config.LineColors = JsonConvert.DeserializeObject<List<TargetSettingsPair>>(ImGui.GetClipboardText());
+            try {
+                var parsed = JsonConvert.DeserializeObject<List<TargetSettingsPair>>(ImGui.GetClipboardText());
+                if (parsed != null) {
+                    Globals.Config.LineColors = parsed;
+                    should_save = true;
+                }
+            }
+            catch (Exception) {
+                Service.ChatGui.PrintError("[TargetLines] Failed to paste preset: invalid data in clipboard.");
+            }
         }
         if (ImGui.IsItemHovered()) {
             ImGui.SetTooltip("Paste rules from the clipboard. This overwrites your existing rules!");

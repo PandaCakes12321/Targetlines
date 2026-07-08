@@ -87,6 +87,11 @@ public static class TargetLineManager
         }
     }
 
+    public static void Dispose() {
+        TestLine?.Dispose();
+        TestLine = null;
+    }
+
     public static void DrawOverlay() {
         DrawOverlay_ImGui();
         DrawOverlay_DX();

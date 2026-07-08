@@ -1,6 +1,8 @@
-﻿using System;
+﻿using DrahsidLib;
+using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System.Threading;
 using FFXIVClientStructs.FFXIV.Client.Graphics.Kernel;
 
 namespace TargetLines;
@@ -16,23 +18,32 @@ internal static unsafe class SwapChainResolver {
     public static List<IntPtr> SwapChainVtbl { get; private set; }
 
     public static unsafe void Setup() {
-        while (true) {
+        const int maxRetries = 500;
+        for (int attempt = 0; attempt < maxRetries; attempt++) {
             KernelDevice = Device.Instance();
             if (KernelDevice == null) {
+                Thread.Sleep(10);
                 continue;
             }
 
             SwapChain = KernelDevice->SwapChain;
             if (SwapChain == null) {
+                Thread.Sleep(10);
                 continue;
             }
 
             DXGISwapChain = SwapChain->DXGISwapChain;
             if (DXGISwapChain == null) {
+                Thread.Sleep(10);
                 continue;
             }
 
             break;
+        }
+
+        if (KernelDevice == null || SwapChain == null || DXGISwapChain == null) {
+            Service.Logger.Error("Failed to resolve swap chain after max retries");
+            return;
         }
 
         SwapChainVtbl = GetVTblAddresses((IntPtr)DXGISwapChain, Enum.GetValues(typeof(IDXGISwapChainVtbl)).Length);
