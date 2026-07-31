@@ -17,5 +17,24 @@
     "DownloadLinkTesting": "https://github.com/PandaCakes12321/Targetlines/releases/download/v2.0.2.0/latest.zip",
     "DownloadCount": 0,
     "LastUpdate": "1753952400"
+  },
+  {
+    "Author": "Teffers",
+    "Name": "Sneak On By",
+    "InternalName": "SneakOnBy",
+    "AssemblyVersion": "2.0.1.0",
+    "Description": "Adds markers for the areas around a monster where it will detect you. Allows you to more easily sneak around pesky monsters.",
+    "Punchline": "Shows areas of aggression in Deep Dungeons",
+    "RepoUrl": "https://github.com/PandaCakes12321/SneakOnBy",
+    "ApplicableVersion": "any",
+    "CategoryTags": ["utility", "deep-dungeon"],
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.1.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.1.0/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1785502670"
   }
 ]
