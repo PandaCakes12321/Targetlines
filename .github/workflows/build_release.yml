@@ -39,5 +39,5 @@ jobs:
       - name: Upload Release
         uses: softprops/action-gh-release@v2
         with:
-          files: TargetLines/bin/x64/Release/TargetLines/latest.zip
+          files: TargetLines/bin/x64/Release/*/latest.zip
           generate_release_notes: true
