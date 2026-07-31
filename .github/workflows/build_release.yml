@@ -26,7 +26,7 @@ jobs:
 
       - name: Download Dalamud stubs
         run: |
-          Invoke-WebRequest -Uri "https://goatcorp.github.io/dalamud-distrib/stubs/latest.zip" -OutFile "latest.zip"
+          Invoke-WebRequest -Uri "https://goatcorp.github.io/dalamud-distrib/api15/latest.zip" -OutFile "latest.zip"
           Expand-Archive -Path "latest.zip" -DestinationPath "$env:APPDATA\XIVLauncher\addon\Hooks\dev" -Force
         shell: pwsh
 
