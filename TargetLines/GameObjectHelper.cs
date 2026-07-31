@@ -100,7 +100,12 @@ public static class GameObjectExtensions {
                 }
             }
 
-            ClassJob ID = (ClassJob)obj.GetPlayerCharacter().ClassJob.RowId;
+            IPlayerCharacter pc = obj.GetPlayerCharacter();
+            if (pc == null) {
+                return settings;
+            }
+
+            ClassJob ID = (ClassJob)pc.ClassJob.RowId;
             settings.Jobs = ClassJobToBit(ID);
             if (DPSJobs.Contains(ID)) {
                 settings.Flags |= TargetFlags.DPS;
