@@ -22,8 +22,8 @@
     "Author": "Teffers",
     "Name": "Sneak On By",
     "InternalName": "SneakOnBy",
-    "AssemblyVersion": "2.0.8.0",
-    "Description": "Adds markers for the areas around a monster where it will detect you. Allows you to more easily sneak around pesky monsters. In Occult Crescent, also marks treasure coffers, carrots, persistent pots and happy bunnies, with a line pointing to each one.",
+    "AssemblyVersion": "2.0.9.0",
+    "Description": "Adds markers for the areas around a monster where it will detect you. Allows you to more easily sneak around pesky monsters. In Occult Crescent, also marks treasure coffers, carrots, persistent pots and happy bunnies, with a line pointing to each one, and bakes the treasure spots onto the in-game map.",
     "Punchline": "Shows areas of aggression around monsters",
     "RepoUrl": "https://github.com/PandaCakes12321/SneakOnBy",
     "ApplicableVersion": "any",
@@ -31,10 +31,10 @@
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.8.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.8.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.8.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.9.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.9.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/PandaCakes12321/SneakOnBy/releases/download/v2.0.9.0/latest.zip",
     "DownloadCount": 0,
-    "LastUpdate": "1785794000"
+    "LastUpdate": "1785875400"
   }
 ]
