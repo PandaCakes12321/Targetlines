@@ -41,7 +41,7 @@
     "Author": "Teffers",
     "Name": "Teffer Ping",
     "InternalName": "TefferPing",
-    "AssemblyVersion": "2.11.2.0",
+    "AssemblyVersion": "2.11.3.0",
     "Description": "Ping display plugin by Teffers.",
     "Punchline": "Ping display plugin by Teffers.",
     "RepoUrl": "https://github.com/PandaCakes12321/PingPlugin",
@@ -50,9 +50,9 @@
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.2.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.2.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.2.0/latest.zip",
+    "DownloadLinkInstall": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.3.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.3.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.3.0/latest.zip",
     "DownloadCount": 0,
     "LastUpdate": "1755561600"
   }
