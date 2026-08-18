@@ -37,4 +37,23 @@
     "DownloadCount": 0,
     "LastUpdate": "1785581852"
   }
+  ,{
+    "Author": "Teffers",
+    "Name": "PingPlugin",
+    "InternalName": "PingPlugin",
+    "AssemblyVersion": "2.11.1.0",
+    "Description": "A ping display plugin for Dalamud.",
+    "Punchline": "A ping display plugin for Dalamud.",
+    "RepoUrl": "https://github.com/PandaCakes12321/PingPlugin",
+    "ApplicableVersion": "any",
+    "CategoryTags": ["utility"],
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.1.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/PandaCakes12321/PingPlugin/releases/download/v2.11.1.0/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdate": "1755561600"
+  }
 ]
